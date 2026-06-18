@@ -61,7 +61,7 @@ with st.expander("상세 검색 조건", expanded=True):
             #x는 '서울', '경기', '부산' 같은 '지역 명'
             #if조건 붙는 이유: '지역명'이 없는 '지역'이라면 추가안됨
 
-            locations = [loc_options[x] for x in selected_location if loc_options[x]]
+            locations = [loc_options[x] for x in selected_location if loc_options[x]]# 옵션스에 해당하는 값이 있다면~
             #st.write(locations)
 
             #직무검색
