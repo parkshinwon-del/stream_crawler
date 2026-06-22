@@ -121,6 +121,8 @@ crawling_clicked = st.button("크롤링 시작",
                              use_container_width=True,
                              type='primary')
 
+
+
 #crawligng_clicked ->True(버튼을 눌렀음)/False(버튼을 누르지 않았음)
 # if crawling_clicked:
 #     st.write('버튼을 누름')
@@ -171,7 +173,7 @@ if crawling_clicked :
 #session_state['df']
 #df['expedtion'] == df.expedition
 df = st.session_state['df']
-st.write(df)
+
 
 
 if not df.empty:
