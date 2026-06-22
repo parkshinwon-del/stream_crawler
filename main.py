@@ -121,7 +121,7 @@ crawling_clicked = st.button("크롤링 시작",
                              use_container_width=True,
                              type='primary')
 
-
+######
 
 #crawligng_clicked ->True(버튼을 눌렀음)/False(버튼을 누르지 않았음)
 # if crawling_clicked:
