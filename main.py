@@ -124,13 +124,14 @@ crawling_clicked = st.button("크롤링 시작",
 #crawligng_clicked ->True(버튼을 눌렀음)/False(버튼을 누르지 않았음)
 # if crawling_clicked:
 #     st.write('버튼을 누름')
-
+if 'df' not in st.session_state:
+    st.session_state['df'] = pd.DataFrame()
 
 # else:
 #     st.write('버튼을 안누름')
 #크롤링 시행!!
 #1. 크롤링한 결과를 어떻게 받아올 것인가?
-df = pd.DataFrame()
+
 #2. 크롤링 하는 동안 어떻게 안내할 것인가?
 if crawling_clicked :
 
