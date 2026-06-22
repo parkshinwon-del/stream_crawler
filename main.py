@@ -3,7 +3,7 @@ import streamlit as st #스트림릿 페이지
 #import 대상 ->파일(.py)
 #from 파일 import 함수, 클래스->해당 파일의 일부 함수/클래스만 임포트
 
-from crawling import crawling_saramin, crawling_work24
+from cralwer import crawling_saramin, crawling_work24, download_to_csv
 
 #레이아웃(웹 페이지의 생김새)
 #스트림릿 웹페이지의 '헤더'역할
